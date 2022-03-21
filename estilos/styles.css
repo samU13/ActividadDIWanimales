@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    background-color: rgb(65, 60, 60);
+    color: white;
+}
+.logo{
+    flex-grow: 2;
+    padding-left: 20px;
+}
+.logo h1{
+    font-size: 2em;
+}
+
+#menu{
+    flex-grow: 1;
+    font-size: 1.3em;
+}
+#menu ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+  
+}
+
+#top{
+    background-image: url("media/banner.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 450px;
+    padding-left: 20px;
+    justify-content: center;
+}
+#top h1{
+    font-size: 3em;
+}
+#top h2{
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+
+.boton{
+    border: 2px solid white;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10px;
+    display: inline-block;
+    width: 110px;
+}
+
+
+
+#center{
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    padding-left: 20px;
+}
+#center h2{
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.galeria{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+
+.galeria p{
+    padding-bottom: 15px;
+    font-weight: bold;
+    
+}
+
+
+#bottom{
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    text-align: center;
+    background-color: rgb(65, 60, 60);
+    color: white
+}
+#bottom p{
+    font-weight: bold;
+}
+
+#bottom .galeria div img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 50px;
+}
+
+footer{
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
