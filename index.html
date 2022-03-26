@@ -6,32 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="estilos/normalize.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/d1fcab2f03.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="estilos/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
     <header>
-        <div class="logo"><h1>Mascotas</h1></div>
-        <nav id="menu">
-            <ul>
-                <li>Inicio</li>
-                <li>Mascotas</li>
-                <li>Blog</li>
-                <li>Contacto</li>
+        <div class="logo"><i class="fa-solid fa-paw"></i><span>Mascotas</span></div>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="bar-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul class="menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Mascotas</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="top" style='background-image: url("media/banner.jpg");'>
+        <div class="parte top" style='background-image: url("media/banner.jpg");'>
             <h1>Mascotas y niños felices</h1>
             <h2>¿Cual es la mejor mascota?</h2>
             <div class="boton">Leer mas</div>
-        </section>
-        <section id="center">
+        </div>
+        <div class="parte center">
             <h2 class="titulo">Bienvenidos a nuestro club</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Repudiandae quos nobis quis nesciunt consequuntur voluptates minus, maiores aperiam esse, quia
@@ -40,47 +45,54 @@
                 natus quos! Nihil dignissimos eveniet similique, corrupti dicta error labore laudantium, quidem in
                 dolore commodi id odit natus iste architecto, porro qui ratione voluptas quae minima vero libero omnis
                 officiis. Cumque saepe nemo repellat blanditiis facere tempora error, adipisci nisi exercitationem
-                reiciendis consectetur excepturi culpa in vitae voluptatibus magnam dolores a iusto tempore quas.</p>
-            <div class="galeria">
-                <div class="uno">
+                reiciendis consectetur excepturi culpa in vitae voluptatibus magnam dolores a iusto tempore quas.
+            </p>
+            <div class="galeria cuadrada">
+                <div class="item">
                     <p>Lo ultimo en nuestro blog</p>
                     <img src="media/blog1.jpg" alt="">
                 </div>
-                <div class="dos">
+                <div class="item">
                     <p>Escoge tu mascota perfecta</p>
                     <img src="media/blog2.jpg" alt="">
                 </div>
-                <div class="tres">
+                <div class="item">
                     <p>Los animales necesitan cariño</p>
                     <img src="media/blog3.jpg" alt="">
                 </div>
             </div>
-        </section>
-        <section id="bottom">
+        </div>
+        <div class="parte bottom">
             <p>Para nosotros las mascotas no son simples compañeros, son miembros de la familia</p>
-            <div class="galeria">
-                <div class="unoR">
+            <div class="galeria redonda">
+                <div class="item">
                     <img src="media/img1.jpg" alt="">
                     <p>Gatos</p>
                 </div>
-                <div class="dosR">
+                <div class="item">
                     <img src="media/img2.jpg" alt="">
                     <p>Perros</p>
                 </div>
-                <div class="tresR">
+                <div class="item">
                     <img src="media/img3.jpg" alt="">
                     <p>Pajaros</p>
-                </div>
-                <div class="cuatroR">
+                </div >
+                <div class="item">
                     <img src="media/img4.jpg" alt="">
                     <p>Otros</p>
                 </div>
             </div>
-        </section>
+        </div>
     </main>
     <footer>
         <p>Mis mascotas &copy; 2022</p>
-        <div class="redes"></div>
+        <div class="redes">
+            <i class="fa-brands fa-facebook fa-lg"></i>
+            <i class="fa-brands fa-twitter-square fa-lg"></i>
+            <i class="fa-brands fa-instagram fa-lg"></i>
+            <i class="fa-brands fa-google-plus-square fa-lg"></i>
+
+        </div>
     </footer>
 
 </body>
